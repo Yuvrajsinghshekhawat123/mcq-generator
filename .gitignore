@@ -1,4 +1,14 @@
+ # Node (all node_modules anywhere)
 node_modules/
+
+# Python (all virtual envs)
 venv/
-.env
 __pycache__/
+*.pyc
+
+# Env files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
