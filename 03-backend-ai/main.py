@@ -12,7 +12,7 @@ app = FastAPI() #app = FastAPI()
 @app.post("/generate")
 async def generate(
     number: int = Form(...),
-    subtopics: str = Form(...),
+    subtopics: str = Form(None),
     difficulty: str = Form(...),
     question_type: str = Form(...),
     num_options: int = Form(...),
@@ -24,6 +24,7 @@ async def generate(
     # Step 1: Get content
     if file:
         content = await extract_text_from_pdf(file)
+        print(content);
         logger.info("Text extracted from PDF")
     else:
         content = text
