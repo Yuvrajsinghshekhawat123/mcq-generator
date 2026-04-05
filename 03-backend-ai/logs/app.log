@@ -1,0 +1,18 @@
+2026-04-04 18:53:08,117 | INFO | main | MCQ generation started
+2026-04-04 18:53:09,640 | INFO | httpx | HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-04 18:53:14,645 | INFO | httpx | HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-04 18:53:18,738 | INFO | main | MCQ generation completed
+2026-04-05 10:41:18,589 | ERROR | fastapi | Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-04-05 10:48:23,937 | INFO | main | MCQ generation started
+2026-04-05 10:48:24,008 | INFO | main | Text extracted from PDF
+2026-04-05 10:48:26,534 | INFO | httpx | HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 10:48:31,969 | INFO | httpx | HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 10:48:36,616 | INFO | main | MCQ generation completed
+2026-04-05 10:51:10,644 | INFO | main | MCQ generation started
+2026-04-05 10:51:11,616 | INFO | httpx | HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 10:51:16,499 | INFO | httpx | HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-05 10:51:21,521 | INFO | main | MCQ generation completed
