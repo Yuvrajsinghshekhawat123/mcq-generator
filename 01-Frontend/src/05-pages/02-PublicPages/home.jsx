@@ -144,7 +144,7 @@ const QuizGenerator = () => {
         fd.append("file", formData.file); // 🔥 THIS IS IMPORTANT
       }
 
-      const res = await axios.post("http://localhost:3000/generate", fd);
+      const res = await axios.post("http://18.207.249.208/generate", fd);
       console.log("Backend response:", res.data.data);
 
       if (res.data.success && res.data.data) {
@@ -154,7 +154,7 @@ const QuizGenerator = () => {
       }
     } catch (err) {
       console.error("Error generating quiz:", err);
-      alert("Error generating quiz. Please check your backend connection.");
+      alert("Error generating quiz. Please check your backend connection.", err.message);
     } finally {
       setIsGenerating(false);
     }

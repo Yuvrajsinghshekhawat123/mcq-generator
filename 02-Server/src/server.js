@@ -51,7 +51,7 @@ app.post("/generate", upload.single("file"), async (req, res) => {
 
     // Call FastAPI
     const response = await axios.post(
-      "http://127.0.0.1:8000/generate",
+      "http://18.207.249.208:8000/generate",
       formData,
       {
         headers: formData.getHeaders(),
