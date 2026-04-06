@@ -74,5 +74,5 @@ app.post("/generate", upload.single("file"), async (req, res) => {
 
 // Start server
 app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
+  console.log("Server running on http://18.207.249.208:3000");
 });
